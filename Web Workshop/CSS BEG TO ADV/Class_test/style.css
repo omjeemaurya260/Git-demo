@@ -1,0 +1,15 @@
+ <style>
+            .product-box {
+                width: 200px;
+                padding: 10px;
+                border: 2px solid #ccc;
+                margin: 15px;
+                box-sizing: border-box;
+                background-color: #f9f9f9;
+                text-align: center;
+            }
+            .price {
+                color: green;
+                font-weight: bold;
+            }
+            </style>
