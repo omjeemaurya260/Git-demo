@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Regestration form</title>
+</head>
+    <style>
+        label {
+            font-weight: bold;
+        }
+        form {
+            margin-left: 3%;
+            margin-top: 2%;
+            font-size: 20px;
+        }
+    </style>
+    <body>
+    <h1 align="center" style="color:rgb(70, 43, 190)" >Student Regestration Form</h1>
+    <hr style="color: rgb(128, 29, 29);">
+    <p class="highlight"><br>
+    
+    </p>
+    <form method="post" action="/submit_form">
+        <label for="name">First Name:</label><br>
+        <input type="text" name="name" placeholder="Enter your Full Name" required><br><br>
+        
+        <label for="email" style="color: rgb(205, 21, 21);">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+        
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+        
+        <label for="gender" style="color: rgb(244, 11, 11);">Gender</label> 
+        <input type="radio" name="gender" value="male">Male</input>
+        <input type="radio" name="gender" value="female">Female:</input>
+        <input type="radio" name="gender" value="other">Other:</input><br><br>
+
+        <label>course:</label>
+        <select name="course" required>
+            <option value="" disabled="selection">--Select course--</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="b.tech" disabled="selection">B.Tech</option>
+            <option value="mba">MBA</option>
+            </select><br><br>
+
+</body>
+</html>
