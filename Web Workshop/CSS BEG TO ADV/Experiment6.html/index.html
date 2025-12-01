@@ -1,34 +1,24 @@
-<html>
-    <head>
-        <title>my e-commerse store</title>
-        <style>
-            .product-box {
-                width: 200px;
-                padding: 10px;
-                border: 2px solid #ccc;
-                margin: 15px;
-                box-sizing: border-box;
-                background-color: #f9f9f9;
-                text-align: center;
-            }
-            .price {
-                color: green;
-                font-weight: bold;
-            }</style>
-    </head>
-    <link rel="stylesheet" href="../styles.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Product Page - Simple</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>My E-commerse store</h2>
-    <!--Prodect section-->
-    <div class="product-box">
-        <!--Product image-->
-        <img src="https://chriscross.in/cdn/shop/files/ChrisCrossRoyalblueCottontshirtmen.jpg?v=1740994595&width=1000.png" height="180px" width="150px" alt="T-shirt">
-        <h3>Stylish T-shirt</h3>
-        <p class=""></p>
-        <p class="price">Price: $499</p>
-        <button style="color: green;">Add to cart</button>
-
-
-    </div></body>
+ <header class="site-header">
+ <h1>E-Commerse Store</h1>
+ </header>
+ <main class="container">
+ <section class="product-card">
+ <img class="product-image" src="https://chriscross.in/cdn/shop/files/ChrisCrossRoyalblueCottontshirtmen.jpg?v=1740994595&width=1000.png" alt="Product">
+ <h2 class="product-title">Stylish T-Shirt</h2>
+ <p class="product-desc">A comfortable Cotton t-shirt perfect for casual wear.</p>
+ <div class="price-row">
+ <span class="price">₹699</span>
+ <span class="old-price">₹1,099</span>
+ </div>
+ <button class="add-cart">Add to Cart</button>
+ </section>
+ </main>
+</body>
 </html>
