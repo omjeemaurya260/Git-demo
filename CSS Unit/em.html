@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            .parent-em {
+                font-size: 20px; /* Base font size for the parent element */
+                padding: 40px;
+                background-color: lightgray;
+            }
+            .child-em{
+                font-size: 2em; /* 2 times the font size of the parent element */
+                background-color: lightblue;
+                margin-top:1em; /* 20px */
+            }
+        </style>
+    </head>
+    <body>
+        <h2>EM Example </h2>
+        <div class="parent-em">
+            Parent font-size = 20px<hr>
+            This is the parent element with a font size of 20px.
+            <div class="child-em">
+                This is 2em text<hr>
+                This is the child element with a font size of 40px (2em).
+            </div>
+        </div>
+        </body>
+</html>
