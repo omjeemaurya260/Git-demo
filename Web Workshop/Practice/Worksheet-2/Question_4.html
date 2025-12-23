@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Inline and Block Elements</title>
+    <meta charset="UTF-8">
+    <title>Rowspan and Colspan Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td {
+            padding: 8px 15px;
+            text-align: center;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Block elements -->
-  <div>
-    <h1>Welcome</h1>
-    <p>This is a paragraph that contains an inline element like a <strong>strong</strong> word and a <span>highlighted text</span>.</p>
-  </div>
-
-  <!-- Another block element -->
-  <p>Another paragraph with <span>inline</span> content.</p>
+    <table border="1">
+        <caption>Student Marks</caption>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Subjects</th>
+        </tr>
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>90</td>
+            <td>85</td>
+        </tr>
+    </table>
 
 </body>
 </html>
