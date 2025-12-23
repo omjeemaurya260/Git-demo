@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Elements Example</title>
+    <style>
+        input[type="text"], input[type="password"] {
+            width: 200px;
+            padding: 8px;
+            margin: 5px 0;
+        }
+        body {
+            background-color: rgb(153, 149, 143);
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+
+    <form>
+        <!-- Text Input -->
+        <label>Name:</label><br>
+        <input type="text" name="name" placeholder="Name"><br><br>
+
+        <!-- Password Input -->
+        <label>Password:</label><br>
+        <input type="password" name="pass" placeholder="password"><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" name="subscribe"> Subscribe to newsletter<br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
