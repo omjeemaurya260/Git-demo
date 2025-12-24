@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Login Form</title>
+    <style>
+        body {
+            background-color: rgb(220, 230, 240);
+            font-family: Arial, sans-serif;
+        }
+        fieldset {
+            border: 3px solid #ccc;
+            padding: 10px;
+            width: 300px;
+        }
+        legend {
+            font-weight: bold;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 5px 10px;
+        }
+        </style>
+</head>
+<body>
+
+    <h2>Login Form</h2>
+
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+
+            <label for="user">Username:</label><br>
+            <input id="user" type="text" name="username" tabindex="1"><br><br>
+
+            <label for="pass">Password:</label><br>
+            <input id="pass" type="password" name="password" tabindex="2"><br><br>
+
+            <input type="submit" value="Login" tabindex="3">
+        </fieldset>
+    </form>
+
+</body>
+</html>
